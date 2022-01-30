@@ -1,0 +1,12 @@
+# Trading
+
+## Overview
+- A player starts a trade with another player (/trade/start)
+- A player views there trade (/trade/view)
+- Then the player can either
+  - Reject their trade (/trade/reject)
+  - Or accept their trade (/trade/accept)
+
+You can also cancel trades with /trade/cancel
+
+Note: Trades are deleted from the system after one day

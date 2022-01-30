@@ -1,0 +1,10 @@
+Syntax /trade/start?with=[username]&item=[itemname]&amount=[# of items]&for=[cost]
+Response
+    Created trade
+    with: [username]
+    item: [itemname]
+    amount: [amount]
+    for: [cost]
+    status: pending response
+
+Requires authentication

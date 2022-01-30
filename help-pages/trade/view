@@ -1,0 +1,11 @@
+Syntax: `/trade/view?id=[trade-id]`
+
+Response
+    trade: [id]
+    with: [username]
+    item: [itemname]
+    amount: [amount]
+    for: [cost]
+    status: pending response
+
+Requires authentication

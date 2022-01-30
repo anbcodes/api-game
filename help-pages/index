@@ -1,0 +1,49 @@
+# Welcome to the API game!
+
+## How to play
+
+The whole game is played through http(s) GET requests. All requests take a
+?k={key} parameter. You define the key, but it is basically your password so
+don't share it.
+
+> Note: Futher help about each endpoint can be found at /help/{endpoint}
+
+## About the game
+
+This game has three components:
+
+- Collecting resources (`/world`)
+- Crafting (`/craft`)
+- Trading (`/trade`)
+- And a market (`/market`)
+
+### Collecting resources
+
+This game is based on a 2d world that you navigate and collect resources in. The
+world is made up of printable ascii chars, each char represents something
+different. (See /chars for a list)
+
+World endpoints (remember you can use /help/{endpoint} for more information)
+
+- /world/collect - collects blocks
+- /world/move - moves your location
+- /world/location - gets your location
+- /world/map - gets a map of the world
+- /world/tp - teleports you to another player
+
+### Crafting
+
+You can use materials you've collected to craft tools or other useful items
+
+Crafting endpoints
+
+- /craft - crafts an item
+
+### Trading
+
+You can trade materials with others in two ways: trading, or in the market
+
+Trading/Market endpoints
+
+- /trade - trade with another player
+- /market - access the market (see /help/market)

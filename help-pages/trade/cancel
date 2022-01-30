@@ -1,0 +1,2 @@
+Syntax /trade/accept?id=[trade-id]
+Requires authentication

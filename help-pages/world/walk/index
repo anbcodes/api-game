@@ -1,0 +1,5 @@
+You can walk in four directions
+- North +y (/world/walk/north)
+- South -y (/world/walk/south)
+- East +x (/world/walk/east)
+- West -x (/world/walk/west)

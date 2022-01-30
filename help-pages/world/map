@@ -1,0 +1,3 @@
+Syntax /world/map
+Response - a 50 by 50 map made of ascii chars centered at your location
+Requires authentication

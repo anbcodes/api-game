@@ -1,0 +1,9 @@
+# The world
+
+In the world, you can
+- Move around (/world/walk)
+- Collect resources (/world/collect)
+- Get your location (/world/location)
+- View the map (/world/map)
+- Teleport to another player (/world/tp)
+
